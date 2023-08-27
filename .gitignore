@@ -1,2 +1,5 @@
 #Virtural Environment
 myenv/
+
+#React Packages
+node_modules/

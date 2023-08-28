@@ -8,21 +8,21 @@ const About = () => {
             <span className="aboutDesc">What I do</span>
             <div className="aboutBar">
                 <div className="barItem">
-                    <img src="../../assets/ui-design.png" alt="" className="barImg" />
+                    <img src={require("../../assets/ui-design.png")} alt="" className="barImg" />
                     <div className="barText">
                         <h1>Demo Text</h1>
                         <p>Demo Text</p>
                     </div>
                 </div>
                 <div className="barItem">
-                    <img src="../../assets/website-design.png" alt="" className="barImg" />
+                    <img src={require("../../assets/website-design.png")} alt="" className="barImg" />
                     <div className="barText">
                         <h1>Demo Text</h1>
                         <p>Demo Text</p>
                     </div>
                 </div>
                 <div className="barItem">
-                    <img src="../../assets/app-design.png" alt="" className="barImg" />
+                    <img src={require("../../assets/app-design.png")} alt="" className="barImg" />
                     <div className="barText">
                         <h1>Demo Text</h1>
                         <p>Demo Text</p>

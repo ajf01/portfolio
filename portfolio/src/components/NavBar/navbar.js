@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Link className="MenuItem">Clients</Link>
             </div>
             <button className="ContactButton">
-                <img src="../../assets/contact.png" alt="Contact" className="ContactButtonImg"></img>
+                <img src={require("../../assets/contact.png")} alt="Contact" className="ContactButtonImg"></img>
                 Contact Me
             </button>
         </nav>

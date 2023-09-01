@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './navbar.css'
-import { Link } from 'react-scroll';
+/* import { Link } from 'react-scroll'; */
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
@@ -13,10 +14,11 @@ const Navbar = () => {
                 <Link activeClass="active" to="exper" spy={true} smooth={true} offset={-70} duration={500} className="MenuItem">Portfolio</Link>
                 <Link activeClass="active" to="clients" spy={true} smooth={true} offset={-70} duration={500} className="MenuItem">Clients</Link>
             </div>
-            <button className="ContactButton" onClick={() => {document.getElementById('contact').scrollIntoView({behavior: 'smooth'});}}>
+            {/* <button className="ContactButton" onClick={() => {document.getElementById('contact').scrollIntoView({behavior: 'smooth'});}}> */}
+            <Link to="clients" spy={true} smooth={true} offset={-70} duration={500} className="ContactButton" >
                 <img src={require("../../assets/contact.png")} alt="Contact" className="ContactButtonImg"></img>
                 Contact Me
-            </button>
+            </Link>
             <img src={require("../../assets/menu.png")} alt="ddMenu" className="ddMenu" onClick={()=>setShowMenu(!showMenu)}></img>
             <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
                 <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="navItem" onClick={()=>setShowMenu(false)}>Home</Link>

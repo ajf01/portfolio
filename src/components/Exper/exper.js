@@ -5,7 +5,7 @@ const Exper = () => {
     return (
         <section id="exper">
             <h1 className="experTitle">My Portfolio</h1>
-            <span className="experDesc">I take pride</span>
+            <span className="experDesc">Some examples of my works and what my skillset entails.</span>
             <div className="experImgs">
                 <img src={require("../../assets/portfolio-1.png")} alt="" className="experImg" />
                 <img src={require("../../assets/portfolio-2.png")} alt="" className="experImg" />

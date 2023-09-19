@@ -3,12 +3,12 @@ import Intro from "./components/Intro/intro";
 import About from "./components/About/about";
 import Exper from "./components/Exper/exper";
 import Contact from "./components/Contact/contact";
-import {
+/* import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate
-} from "react-router-dom";
+} from "react-router-dom"; */
 
 function App() {
   return (

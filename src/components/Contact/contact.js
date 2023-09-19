@@ -17,9 +17,9 @@ const Contact = () => {
     return (
         <section id="contactPage">
             <div id="clients">
-                <h1 className="pageTitle">My Clients</h1>
+                <h1 className="pageTitle">Previous Employers</h1>
                 <p className="pageDesc">
-                    I have worked with many people
+                    Some companies I have worked with in the past include
                 </p>
                 <div className="pageImgs">
                     <img src={require("../../assets/walmart.png")} alt="" className="pageImg" />
@@ -37,10 +37,14 @@ const Contact = () => {
                     <textarea className="msg" name="message" rows={5} placeholder="Your Message"></textarea>
                     <button type="submit" value="Send" className="subBtn">Submit</button>
                     <div className="links">
-                        <img src={require("../../assets/facebook-icon.png")} alt="" className="link" />
-                        <img src={require("../../assets/twitter.png")} alt="" className="link" />
-                        <img src={require("../../assets/youtube.png")} alt="" className="link" />
-                        <img src={require("../../assets/instagram.png")} alt="" className="link" />
+                        <a HREF = "https://www.linkedin.com/in/anthony-fong-" target="_blank">
+                            <img src={require("../../assets/linkedin_icon.png")} alt="" className="link" />
+                        </a>
+                        <a HREF = "https://github.com/ajf01" target="_blank">
+                            <img src={require("../../assets/github_icon.png")} alt="" className="link" />
+                        </a>
+                        {/* <img src={require("../../assets/youtube.png")} alt="" className="link" />
+                        <img src={require("../../assets/instagram.png")} alt="" className="link" /> */}
                     </div>
                 </form>
             </div>

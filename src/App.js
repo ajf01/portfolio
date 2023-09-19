@@ -13,12 +13,12 @@ import {
 function App() {
   return (
     <div className="App">
-      {/* <Navbar></Navbar>
+      <Navbar></Navbar>
       <Intro></Intro>
       <About></About>
       <Exper></Exper>
-  <Contact></Contact> */}
-      <Router>
+      <Contact></Contact>
+      {/*<Router>
       <Navbar></Navbar>
         <Routes>
           <Route path="/intro" element={<Intro />} />
@@ -27,7 +27,7 @@ function App() {
           <Route path="/clients" element={<Contact />} />
           <Route path='*' element={<Navigate to='/intro' replace />} />
         </Routes>
-      </Router>
+      </Router>*/}
     </div>
   );
 }

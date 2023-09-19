@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './navbar.css'
-/* import { Link } from 'react-scroll'; */
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+/* import { Link } from 'react-router-dom'; */
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)

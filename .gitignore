@@ -27,3 +27,5 @@ myenv/
 
 #React Packages
 node_modules/
+scripts/
+config/

@@ -16,7 +16,7 @@ const Contact = () => {
     }
     return (
         <section id="contactPage">
-            <div id="clients">
+            {/*<div id="clients">
                 <h1 className="pageTitle">Previous Employers</h1>
                 <p className="pageDesc">
                     Some companies I have worked with in the past include
@@ -27,7 +27,7 @@ const Contact = () => {
                     <img src={require("../../assets/microsoft.png")} alt="" className="pageImg" />
                     <img src={require("../../assets/facebook.png")} alt="" className="pageImg" />
                 </div>  
-            </div>
+            </div>*/}
             <div id="contact">
                 <h1 className="pageTitle">Contact Me</h1>
                 <span className="contactDesc">Hello</span>

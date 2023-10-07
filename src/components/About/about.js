@@ -4,8 +4,8 @@ import './about.css'
 const About = () => {
     return (
         <section id="about">
-            <span className="aboutTitle">Currently a Software Engineer at</span>
-            <span className="aboutDesc">FutureDial</span>
+            <span className="aboutTitle">Past Work Experience</span>
+            <span className="aboutDesc">I have been in the industry for many years. The following includes only some of my work history.</span>
             <div className="aboutBar">
                 <div className="barItem">
                     <img src={require("../../assets/ui-design.png")} alt="" className="barImg" />

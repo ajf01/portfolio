@@ -30,7 +30,10 @@ const Contact = () => {
             </div>*/}
             <div id="contact">
                 <h1 className="pageTitle">Contact Me</h1>
-                <span className="contactDesc">Hello</span>
+                <span className="contactDesc">
+                    If you have any questions about my skillset or past experiences, or if you have an opportunity 
+                    you believe I would be qualified for feel free to contact me by filling out the form below!
+                </span>
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
                     <input type="text" className="name" placeholder="Your Name" name="your_name" />
                     <input type="email" className="email" placeholder="Your Email" name="your_email" />

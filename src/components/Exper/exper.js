@@ -14,8 +14,8 @@ const Exper = () => {
                 <img src={require("../../assets/portfolio-5.png")} alt="" className="experImg" />
                 <img src={require("../../assets/portfolio-6.png")} alt="" className="experImg" />*/}
                 <div className="experImg">
-                    <h1 style={{display: 'inline'}}>SD Hacks Best Use of AWS 2019 &emsp;</h1>
-                    <a style={{display: 'inline'}} HREF="https://github.com/nonguyen1/BullyGuard" target="_blank">https://github.com/nonguyen1/BullyGuard</a>
+                    <h1 style={{display: 'inline', textAlign: 'left'}}>SD Hacks Best Use of AWS 2019 &emsp;</h1>
+                    <a style={{display: 'inline', textAlign: 'right'}} HREF="https://github.com/nonguyen1/BullyGuard" target="_blank">https://github.com/nonguyen1/BullyGuard</a>
                     <p>
                         Won first prize in the “Best Use of AWS” category. Developed a NLP model with Amazon Comprehend, 
                         hosted on a TypeScript web app, with data warehousing on AWS S3 that analyzed comments in chat 

@@ -38,7 +38,7 @@ const Contact = () => {
                     <input type="text" className="name" placeholder="Your Name" name="your_name" />
                     <input type="email" className="email" placeholder="Your Email" name="your_email" />
                     <textarea className="msg" name="message" rows={5} placeholder="Your Message"></textarea>
-                    <button type="submit" value="Send" className="subBtn">Submit</button>
+                    <button style={{cursor: 'pointer'}} type="submit" value="Send" className="subBtn">Submit</button>
                     <div className="links">
                         <a HREF = "https://www.linkedin.com/in/anthony-fong-" target="_blank">
                             <img src={require("../../assets/linkedin_icon.png")} alt="" className="link" />

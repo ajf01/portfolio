@@ -7,10 +7,21 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  HashRouter,
   Navigate
 } from "react-router-dom";
+import React, { useEffect } from 'react';
 
 function App() {
+  {/* useEffect(() => {
+    return () =>{
+      if (String(window.performance.getEntriesByType("navigation")[0].type) === "reload") {
+        console.log("HEere");
+        window.location.replace("https://ajf01.github.io/portfolio");
+      }
+    }
+  }, []); */}
+
   return (
     <div className="App">
       {/* <Navbar></Navbar>
@@ -18,7 +29,7 @@ function App() {
       <About></About>
       <Exper></Exper>
       <Contact></Contact> */}
-      <Router>
+      <HashRouter>
         <Navbar></Navbar>
         <Routes>
           <Route path="/intro" element={<Intro />} />
@@ -26,8 +37,9 @@ function App() {
           <Route path="/exper" element={<Exper />} />
           <Route path="/clients" element={<Contact />} />
           <Route path='*' element={<Navigate to='/intro' replace />} />
+          {/*<Route path='*' element={<meta http-equiv="refresh" content="2;url=https://ajf01.github.io/portfolio" />} />*/}
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }

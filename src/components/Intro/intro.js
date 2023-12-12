@@ -15,7 +15,7 @@ const Intro = () => {
                     Welcome to my Portfolio Website!
                 </p>
                 <Link>
-                    <button className="hireBtn" onClick={() => {document.getElementById('contact').scrollIntoView({behavior: 'smooth'});}}>
+                    <button className="hireBtn" onClick={() => {window.location.href = "#/clients";}}>
                         Hire Me
                     </button>
                 </Link>

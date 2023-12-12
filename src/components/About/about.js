@@ -4,14 +4,17 @@ import './about.css'
 const About = () => {
     return (
         <section id="about">
-            <span className="aboutTitle">Past Work Experience</span>
-            <span className="aboutDesc">I have been in the industry for many years. The following includes only some of my work history.</span>
+            <span className="aboutTitle">Work Experience</span>
+            <span className="aboutDesc">I am an experienced coder that has worked in the industry for many years. Some of my professional work history and details are included below.</span>
             <div className="aboutBar">
                 <div className="barItem">
                     <img src={require("../../assets/ui-design.png")} alt="" className="barImg" />
                     <div className="barText">
-                        <h1 style={{display: 'inline'}}>FutureDial Software Engineer </h1>
-                        <h2 style={{display: 'inline', align:'right'}}>December 2021 - Present</h2>
+                        <div style={{clear: 'both'}}>
+                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem', 'line-height': '0.8rem'}}>FutureDial</h1>
+                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem', 'line-height': '0.8rem'}}>Software Engineer</h2>
+                        </div>
+                        <br/>
                         <p>
                             Evaluated and enhanced AI models by performing PCA to reduce data variance increasing accuracy by over 30%.
                             Developed ML models using TensorFlow and processed unstructured data into statistical assets with Pandas.
@@ -24,8 +27,11 @@ const About = () => {
                 <div className="barItem">
                     <img src={require("../../assets/website-design.png")} alt="" className="barImg" />
                     <div className="barText">
-                        <h1 style={{display: 'inline'}}>Jensen Partners Data Scientist </h1>
-                        <h2 style={{display: 'inline', align:'right'}}>January 2021 - December 2021</h2>
+                        <div style={{clear: 'both'}}>
+                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem', 'line-height': '0.8rem'}}>Jensen Partners</h1>
+                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem', 'line-height': '0.8rem'}}>Data Scientist</h2>
+                        </div>
+                        <br/>
                         <p>
                             Enacted database pipeline to facilitate storage and modeling of recruitment data using MySQL and MongoDB.
                             Implemented key changes in data collection through Python and Django web scraping to improve efficiency and 
@@ -36,10 +42,14 @@ const About = () => {
                     </div>
                 </div>
                 <div className="barItem">
-                    <img src={require("../../assets/app-design.png")} alt="" className="barImg" />
+                    {/*<img src={require("../../assets/app-design.png")} alt="" className="barImg" />*/}
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/UCSD_Seal.png" alt="" className="barImg" />
                     <div className="barText">
-                        <h1 style={{display: 'inline'}}>UC San Diego Financial Analyst </h1>
-                        <h2 style={{display: 'inline', align:'right'}}>August 2018 - August 2019</h2>
+                        <div style={{clear: 'both'}}>
+                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem', 'line-height': '0.8rem'}}>UC San Diego</h1>
+                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem', 'line-height': '0.8rem'}}>Financial Analyst</h2>
+                        </div>
+                        <br/>
                         <p>
                             Managed 5-million-dollar budget by identifying variances and directing corrective actions, avoiding overruns 
                             and maintaining a positive cash position. Audited expenses for accuracy and potential signs of fraud using 

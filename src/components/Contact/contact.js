@@ -6,7 +6,7 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm("serviceID", "templateID", form.current, "publicKey").then((result) => {
+        emailjs.sendForm("service_1h8wr16", "template_kr7avs2", form.current, "wz73JGRyV7WJGXkkn").then((result) => {
             console.log(result.text);
             e.target.reset()
             alert('Email Sent!')
@@ -35,8 +35,8 @@ const Contact = () => {
                     you believe I would be qualified for feel free to contact me by filling out the form below!
                 </span>
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                    <input type="text" className="name" placeholder="Your Name" name="your_name" />
-                    <input type="email" className="email" placeholder="Your Email" name="your_email" />
+                    <input type="text" className="name" placeholder="Your Name" name="from_name" />
+                    <input type="email" className="email" placeholder="Your Email" name="from_email" />
                     <textarea className="msg" name="message" rows={5} placeholder="Your Message"></textarea>
                     <button style={{cursor: 'pointer'}} type="submit" value="Send" className="subBtn">Submit</button>
                     <div className="links">

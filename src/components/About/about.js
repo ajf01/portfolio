@@ -11,11 +11,10 @@ const About = () => {
                     <img src={require("../../assets/ui-design.png")} alt="" className="barImg" />
                     <div className="barText">
                         <div style={{clear: 'both'}}>
-                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem', 'line-height': '0.8rem'}}>FutureDial</h1>
-                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem', 'line-height': '0.8rem'}}>Software Engineer</h2>
+                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem'}}>Software Engineer</h1>
+                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem'}}>FutureDial</h2>
                         </div>
-                        <br/>
-                        <p>
+                        <p style={{display: 'inline-block'}}>
                             Evaluated and enhanced AI models by performing PCA to reduce data variance increasing accuracy by over 30%.
                             Developed ML models using TensorFlow and processed unstructured data into statistical assets with Pandas.
                             Designed and built products with interactive UI hosted on web applications with React and Node.js.
@@ -28,11 +27,10 @@ const About = () => {
                     <img src={require("../../assets/website-design.png")} alt="" className="barImg" />
                     <div className="barText">
                         <div style={{clear: 'both'}}>
-                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem', 'line-height': '0.8rem'}}>Jensen Partners</h1>
-                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem', 'line-height': '0.8rem'}}>Data Scientist</h2>
+                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem'}}>Data Scientist</h1>
+                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem'}}>Jensen Partners</h2>
                         </div>
-                        <br/>
-                        <p>
+                        <p style={{display: 'inline-block'}}>
                             Enacted database pipeline to facilitate storage and modeling of recruitment data using MySQL and MongoDB.
                             Implemented key changes in data collection through Python and Django web scraping to improve efficiency and 
                             save over 300 hours of time in sourcing and preliminary analysis. Devised and created an interactive 
@@ -46,11 +44,10 @@ const About = () => {
                     <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/UCSD_Seal.png" alt="" className="barImg" />
                     <div className="barText">
                         <div style={{clear: 'both'}}>
-                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem', 'line-height': '0.8rem'}}>UC San Diego</h1>
-                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem', 'line-height': '0.8rem'}}>Financial Analyst</h2>
+                            <h1 style={{display: 'inline', float: 'left', "font-size": '1.4rem'}}>Financial Analyst</h1>
+                            <h2 style={{display: 'inline', float: 'right', "font-size": '1.4rem'}}>UC San Diego</h2>
                         </div>
-                        <br/>
-                        <p>
+                        <p style={{display: 'inline-block'}}>
                             Managed 5-million-dollar budget by identifying variances and directing corrective actions, avoiding overruns 
                             and maintaining a positive cash position. Audited expenses for accuracy and potential signs of fraud using 
                             Python and statistical analysis. Collected financial data and developed comprehensive excel spreadsheets and 
